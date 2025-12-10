@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: black;
+}
+
+#heart {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#frase-corazon {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(252, 138, 138);
+    font-size: 40px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    pointer-events: none;
+}
+
+#letra {
+    position: fixed;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 10px black;
+}
