@@ -9,11 +9,11 @@ document.addEventListener('keydown', function(e) {
 });
 
 const messages = [
-    "oda mi amoo 😊 oye oye haz click en cualquier parte 🥰",
+    "hola mi amor 😊 oye oye haz click en cualquier parte 🥰",
     "lento, haz click lento mi amor 😊",
     "otra veeez ❤️",
     "más clicks",
-    "ya falta poco mi amo 😊",
+    "ya falta poco mi amor 😊",
     "otro click",
     "sabías que cada click que haces me hace más feliz? 🥰",
     "ahora si, otro click :3",
@@ -123,5 +123,6 @@ function setupMusic() {
         document.removeEventListener('click', startMusic);
     });
 }
+
 
 document.addEventListener('DOMContentLoaded', setupMusic);
